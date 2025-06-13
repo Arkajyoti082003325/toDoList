@@ -10,7 +10,7 @@ class Task:
     completed: bool = False
     created_at: str = datetime.now().isoformat()
     due_date: Optional[str] = None
-    priority: int = 1  # 1-5 where 5 is highest
+    priority: int = 1
     category: Optional[str] = None
 
 class TodoManager:
